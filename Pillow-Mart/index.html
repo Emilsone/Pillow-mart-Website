@@ -6,18 +6,24 @@
     <meta author="Ezekiel Lawson">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>PILLOW MART</title>
 </head>
 
 <body>
-    <header>
-        <img class="logo" src="images/logo.png" alt="">
-        <nav>
-            <ul>
+    <header class="hero">
+        <nav class="navbar">
+            <div style="display: flex;">
+                <img class="logo" src="images/logo.png" alt="">
+            </div>
+            <i class="fa fa-bars" id="icon"></i>
+            <ul class="nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">product</a></li>
+                <li><a href="#">Product</a></li>
                 <li><a href="#">page</a></li>
                 <li><a href="#">blog</a></li>
                 <li><a href="#">contact</a></li>
@@ -25,7 +31,6 @@
                 <li><a href="#" class="icon-one"> &#128722</a></li>
             </ul>
         </nav>
-
     </header>
     <section class="section-banner">
         <div class="section-flex">
@@ -57,14 +62,14 @@
             </div>
         </div>
     </section>
-    <!--========== second-section =======-->
+    <!--========== Third-section =======-->
 
     <section class="control">
         <div class="section-three">
             <div class="text-banner">
                 <p class="foam-text"><b>started from $10</b></p>
                 <h1 class="foam-heading"> printed memory foam<br>
-                    brief modern throw 
+                    brief modern throw
                     pillow case</h1>
                 <button class="mart-two">Explore Now</button>
             </div>
@@ -74,11 +79,13 @@
             </div>
         </div>
     </section>
+
+    <!--========== Fourth-section =======-->
     <section class="control-one">
         <div class="foam-control">
             <div class="para">
-                <img class="para-one" src="images/product_overlay.png" alt="">
-                <img class="para-two" src="images/single_product_3.png" alt="">
+                <img class="para-one" src="images/product_overlay.png" alt="" id="image-product">
+                <img class="para-two" src="images/single_product_3.png" alt="" id="image-single">
             </div>
             <div class="text-section">
                 <p class="foam-text"><b>started from $10</b></p>
@@ -90,56 +97,61 @@
             </div>
         </div>
     </section>
-    <section class="section-six">
-        <h1 class="trending-text">Trending items</h1>
-        <div class="general">
-            <div class="general-one">
-                <img src="images/tranding_item_1.png" alt="" class="trending-image">
-                <p class="general-1">cervical pillow for airplane <br>
-                    car office nap pillow</p>
-                <p class="general-2">from $5</p>
+    <!--========== Fifth-section =======-->
+    <section class="general-section">
+        <section class="section-six">
+            <h1 class="trending-text">Trending items</h1>
+            <div class="general">
+                <div class="general-one">
+                    <img src="images/tranding_item_1.png" alt="" class="trending-image">
+                    <p class="general-1">cervical pillow for airplane <br>
+                        car office nap pillow</p>
+                    <p class="general-2">from $5</p>
 
-            </div>
-            <div class="general-one">
-                <img src="images/tranding_item_2.png" alt="" class="trending-image">
-                <p class="general-1">foam filling cotton slow <br>
-                    rebound pillow</p>
-                <p class="general-2">from $5</p>
+                </div>
+                <div class="general-one">
+                    <img src="images/tranding_item_2.png" alt="" class="trending-image">
+                    <p class="general-1">foam filling cotton slow <br>
+                        rebound pillow</p>
+                    <p class="general-2">from $5</p>
 
+                </div>
+                <div class="general-one">
+                    <img src="images/tranding_item_3.png" alt="" class="trending-image">
+                    <p class="general-1">memory foam filling cotton<br>
+                        slow rebound pillow</p>
+                    <p class="general-2">from $5</p>
+                </div>
             </div>
-            <div class="general-one">
-                <img src="images/tranding_item_3.png" alt="" class="trending-image">
-                <p class="general-1">memory foam filling cotton<br>
-                    slow rebound pillow</p>
-                <p class="general-2">from $5</p>
+        </section>
+        <!--========== Sixth-section =======-->
+        <section class="comman">
+            <div class="general">
+                <div class="general-one">
+                    <img src="images/tranding_item_4.png" alt="" class="trending-image">
+                    <p class="general-1">cervical pillow for airplane <br>
+                        car office nap pillow</p>
+                    <p class="general-2">from $5</p>
+
+                </div>
+                <div class="general-one">
+                    <img src="images/tranding_item_5.png" alt="" class="trending-image">
+                    <p class="general-1">foam filling cotton slow <br>
+                        rebound pillow</p>
+                    <p class="general-2">from $5</p>
+
+                </div>
+                <div class="general-one">
+                    <img src="images/tranding_item_6.png" alt="" class="trending-image">
+                    <p class="general-1">memory foam filling cotton<br>
+                        slow rebound pillow</p>
+                    <p class="general-2">from $5</p>
+                </div>
             </div>
-        </div>
+        </section>
     </section>
 
-    <section class="comman">
-        <div class="general">
-            <div class="general-one">
-                <img src="images/tranding_item_4.png" alt="" class="trending-image">
-                <p class="general-1">cervical pillow for airplane <br>
-                    car office nap pillow</p>
-                <p class="general-2">from $5</p>
-
-            </div>
-            <div class="general-one">
-                <img src="images/tranding_item_5.png" alt="" class="trending-image">
-                <p class="general-1">foam filling cotton slow <br>
-                    rebound pillow</p>
-                <p class="general-2">from $5</p>
-
-            </div>
-            <div class="general-one">
-                <img src="images/tranding_item_6.png" alt="" class="trending-image">
-                <p class="general-1">memory foam filling cotton<br>
-                    slow rebound pillow</p>
-                <p class="general-2">from $5</p>
-            </div>
-        </div>
-    </section>
+    <!--========== seventh-section =======-->
     <section class="cornel">
         <div class="cornel-one">
             <img class="cornel-two" src="images/client_2.png" alt="">
@@ -148,6 +160,7 @@
             <p class="cornel-1">-mickey mouse</p>
         </div>
     </section>
+    <!--========== Eight-section =======-->
     <section class="mara">
         <div class="mara-one">
             <h1 class="mara-1">credibly innovate granular <br>
@@ -161,6 +174,7 @@
             </div>
         </div>
     </section>
+    <!--========== Nineth-section =======-->
     <section class="broda">
         <div class="broda-one">
             <button class="broda-1">Creadit Card Supported</button>
@@ -169,6 +183,7 @@
             <button class="broda-1">product and Gift</button>
         </div>
     </section>
+    <!--========== Tenth-section =======-->
     <section class="promo">
         <div class="promo-one">
             <h1 class="promo-1">Get promotion & updates</h1>
@@ -178,29 +193,65 @@
                 class="promo-4">subcribe</button>
         </div>
     </section>
-    <div class="bingo">
-        <img class="logo" src="images/logo.png" alt="">
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">product</a></li>
-                <li><a href="">page</a></li>
-                <li><a href="">blog</a></li>
-                <li><a href="">contact</a></li>
+    <!--========== Footer-section =======-->
+    <footer class="footer-container">
+        <div class="column">
+            <img class="logo" src="images/logo.png" alt="">
+          <div class="location">
+            <a href="https://goo.gl/maps/ct6hbTr46dtLZkLv7"
+              ><img src="images/img/icons/location.svg" alt=""
+            /></a>
+            <a href="https://goo.gl/maps/ct6hbTr46dtLZkLv7"
+              >7 ZIKS AVENUE, AWKA, NIGERIA</a
+            >
+          </div>
+        </div>
 
-            </ul>
-        </nav>
-    </div>
+        <div class="column">
+          <p class="title">Menu</p>
+          <hr />
+          <a class="menu text" href="#">Home</a>
+          <a class="menu text" href="#">Rooms & Rates</a>
+          <a class="menu text" href="#">Facilities</a>
+        </div>
+
+        <div class="column">
+          <p class="title">Contact</p>
+          <hr />
+          <p class="text phone">+234-810-9819-775</p>
+          <p class="text">
+            <a href="mailto:help@hoteltransavania.com"
+              >help@hoteltransavania.com</a
+            >
+          </p>
+        </div>
+
+        <div class="column">
+          <p class="title">Social Media</p>
+          <hr />
+          <a href="https://facebook.com"
+            ><img class="icons" src="images/img/icons/fb.svg" alt="facebook"
+          /></a>
+          <a href="https://twitter.com"
+            ><img class="icons" src="images/img/icons/tw.svg" alt="twitter"
+          /></a>
+          <a href="https://linkedin.com"
+            ><img class="icons" src="images/img/icons/ln.svg" alt="linkedIn"
+          /></a>
+        </div>
+        <hr class="bottom" />
+      </footer>
+    </main>
+
     <footer>
-        <p>copyright &copy;All right reserved this template is made &hearts; by mk </p>
+        <p>copyright &copy;All right reserved this website is made &hearts; by Mr.Vue </p>
     </footer>
 
 
 
 
 
-
+<script src="js/main.js"></script>
 </body>
 
 </html>
