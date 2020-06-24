@@ -1,0 +1,208 @@
+@media (max-width: 480px) {
+  .hero .btn {
+    margin: 50px 0px 0px;
+  }
+
+  .footer-container {
+    height: auto;
+    margin-top: 70px;
+  }
+
+  #facilities .row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  #facilities .row .right-panel {
+    width: 100%;
+    margin-top: 0.6rem;
+  }
+
+  .room-section hr {
+    width: auto;
+  }
+
+  #hotel-rooms {
+    margin: 0;
+    padding: 0;
+  }
+
+  .room-card {
+    padding: 35px 50px;
+    margin-bottom: 0;
+  }
+
+  .column-md {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .column-md div:first-child {
+    padding-right: 0;
+    border-right: none;
+    text-align: center;
+  }
+
+  .room-type {
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn {
+    width: auto;
+  }
+
+  .side-panel {
+    margin-top: 20px;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .col-1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .sub-panel img, .mini-suite img {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  hr {
+    width: auto;
+  }
+
+  .luxury-area {
+    padding: 1rem;
+  }
+
+  .luxury-area hr {
+    width: auto;
+  }
+
+  .hero .navbar {
+    margin: 0 10px;
+    padding-top: 12px;
+  }
+
+  .hero .navbar p {
+    display: none;
+  }
+
+  .hero .navbar .nav {
+    background: rgba(0, 0, 0, 1);
+    text-align: center;
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    flex-direction: column;
+    transition: all 0.4s;
+    min-height: 80vh;
+    height: 100%;
+    justify-content: center;
+    color: #ffffff !important;
+  }
+
+  .hero .navbar .nav li {
+    margin: 4rem 0 3rem 1.2rem;
+  }
+
+  .hero-content {
+    margin: 0 2rem;
+  }
+
+  .hero-heading {
+    margin-top: 0;
+    font-size: 30px;
+  }
+
+  .hero .btn {
+    font-size: 2.2rem;
+    width: auto;
+  }
+
+  .hero .btn {
+    margin: 50px 0px 0px;
+  }
+
+  .fa-bars,
+  .fa-close {
+    display: block !important;
+  }
+
+  .room-section {
+    text-align: center;
+  }
+
+  .room-section div {
+    width: auto;
+  }
+
+  .room-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  .room-section .btn {
+    margin: 25px auto;
+  }
+
+  .section-title {
+    font-size: 2.8rem;
+  }
+
+  #facilities .column {
+    flex-basis: auto;
+    margin: 0.5rem;
+  }
+
+  .section2 {
+    height: auto;
+    margin: auto;
+  }
+
+  .section2 .btn {
+    margin: auto;
+  }
+
+  .right-panel span {
+    font-size: 1rem;
+  }
+
+  .footer-container {
+    height: auto;
+    margin-top: 0;
+  }
+
+  .footer-container .column {
+    width: 100%;
+    margin: 0;
+  }
+
+  .footer-container > div:first-of-type {
+    width: 100%;
+  }
+
+  .footer-container .location a:last-of-type {
+    display: block;
+    margin-top: 5px;
+  }
+
+  .footer-container img {
+    width: 10%;
+  }
+
+  hr.bottom {
+    width: auto;
+    margin-bottom: 0;
+  }
+}
